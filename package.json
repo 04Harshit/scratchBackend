@@ -1,0 +1,40 @@
+{
+  "name": "scratch_backend",
+  "version": "1.0.0",
+  "description": "It is a product verification system to distinguish the original from the copy.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/04Harshit/scratchBackend.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "jwt",
+    "xlsx",
+    "firebase",
+    "local storage",
+    "backend development",
+    "product verification",
+    "original product",
+    "scratch backend"
+  ],
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "author": "Harshit Garg",
+  "license": "ISC"
+}

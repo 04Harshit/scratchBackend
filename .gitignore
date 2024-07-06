@@ -1,0 +1,30 @@
+# Node.js / Express.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Optional: Logs
+logs
+*.log
+
+# Dependency directories
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Production build files
+dist/
+build/
+
+# Runtime data
+db.sqlite
+
+# macOS system files
+.DS_Store
+
+# Sensitive information
+serviceAccount.json
